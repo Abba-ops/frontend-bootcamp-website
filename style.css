@@ -1,0 +1,15 @@
+body::before {
+  content: "";
+  display: block;
+  height: 50px;
+}
+
+.map {
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .newsletter-input {
+    width: 50%;
+  }
+}
